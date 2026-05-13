@@ -69,3 +69,51 @@ AI-CRM-Module/
 │   └── ...
 │
 └── README.md
+```
+
+---
+
+## Installation
+
+### Backend Setup
+
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+```
+
+### Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+## Environment Variables
+
+Create a `.env` file inside the backend folder:
+
+```env
+GROQ_API_KEY=your_api_key_here
+```
+
+---
+
+## Future Improvements
+
+- Authentication system
+- Dashboard analytics
+- Voice interaction support
+- PDF export
+- Deployment support
+- Advanced AI analytics
+
+---
+
+## Author
+
+Vaibhav Kapadiya
