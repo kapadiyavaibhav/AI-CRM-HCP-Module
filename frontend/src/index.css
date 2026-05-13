@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+
+  margin: 0;
+  padding: 0;
+
+  background:
+    radial-gradient(circle at top left, #1e293b, #0f172a);
+
+  color: white;
+
+  min-height: 100vh;
+}

@@ -1,0 +1,4 @@
+backend/.env
+backend/VE
+node_modules
+__pycache__
